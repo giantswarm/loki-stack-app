@@ -1,10 +1,19 @@
-[![CircleCI](https://circleci.com/gh/giantswarm/{APP-NAME}-app.svg?style=shield)](https://circleci.com/gh/giantswarm/{APP-NAME}-app)
+[![CircleCI](https://circleci.com/gh/giantswarm/loki-stack-app.svg?style=shield)](https://circleci.com/gh/giantswarm/loki-stack-app)
 
-# {APP-NAME}-app chart
+# loki-stack-app chart
 
-Giant Swarm offers a {APP-NAME} Managed App which can be installed in tenant clusters.
-Here we define the {APP-NAME} chart with its templates and default configuration.
+Giant Swarm offers a loki-stack Managed App which can be installed in tenant clusters.
+Here we define the loki chart with its templates and default configuration.
+
+By default only `loki` and `promtail` get deployed. If you want more addons, please check available options [here](https://github.com/grafana/loki/tree/master/production/helm).
+
+## Usage
+
+```text
+helm install -n loki giantswarm-playground-catalog/loki-stack-app
+```
 
 ## Credit
 
-* {APP HELM REPOSITORY}
+* https://github.com/grafana/loki/tree/master/production/helm
+
