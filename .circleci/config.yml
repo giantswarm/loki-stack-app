@@ -6,9 +6,9 @@ workflows:
   package-and-push-chart-on-tag:
     jobs:
       - architect/push-to-app-catalog:
-          name: "package and push {CHART-NAME} chart"
-          app_catalog: "giantswarm-incubator-catalog"
-          app_catalog_test: "giantswarm-incubator-test-catalog"
+          name: "package and push loki-stack chart"
+          app_catalog: "giantswarm-playground-catalog"
+          app_catalog_test: "giantswarm-playground-test-catalog"
           chart: "loki-stack-app"
           # Trigger job on git tag.
           filters:
