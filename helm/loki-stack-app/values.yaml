@@ -1,19 +1,15 @@
 loki:
   enabled: true
+  image:
+    registry: quay.io
+    repository: giantswarm/loki
+    tag: v1.2.0
+    pullPolicy: IfNotPresent
 
 promtail:
   enabled: true
-
-fluent-bit:
-  enabled: false
-
-grafana:
-  enabled: false
-  sidecar:
-    datasources:
-      enabled: true
   image:
-    tag: 6.4.1
-
-prometheus:
-  enabled: false
+    registry: quay.io
+    repository: giantswarm/promtail
+    tag: v1.2.0
+    pullPolicy: IfNotPresent
