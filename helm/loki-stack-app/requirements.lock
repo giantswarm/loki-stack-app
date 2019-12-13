@@ -5,14 +5,5 @@ dependencies:
 - name: promtail
   repository: file://../promtail
   version: 0.16.0
-- name: fluent-bit
-  repository: file://../fluent-bit
-  version: 0.0.2
-- name: grafana
-  repository: https://kubernetes-charts.storage.googleapis.com/
-  version: 3.8.19
-- name: prometheus
-  repository: https://kubernetes-charts.storage.googleapis.com/
-  version: 9.3.3
-digest: sha256:b8fbea7913c0dc1ee33ef3cd5e0a754c4afe90916528a0c116fe25b9ba4c763c
-generated: 2019-12-09T20:43:28.983943033Z
+digest: sha256:92073f41b99041a215335b957fd32e32d313410f3c28232fa9650711c86fc77a
+generated: "2019-12-13T13:40:33.214634668+01:00"

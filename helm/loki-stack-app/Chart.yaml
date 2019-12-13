@@ -11,4 +11,5 @@ maintainers:
 name: loki-stack-app
 sources:
 - https://github.com/grafana/loki
-version: [[ .Version ]]
+version: 0.23.0
+#version: [[ .Version ]]
