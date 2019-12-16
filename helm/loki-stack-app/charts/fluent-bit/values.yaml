@@ -71,7 +71,7 @@ serviceAccount:
 ## Tolerations for pod assignment
 ## ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
 tolerations:
-- key: node-role.kubernetes.io/master
+- key: node.kubernetes.io/master
   effect: NoSchedule
 
 # Extra volumes to scrape logs from
