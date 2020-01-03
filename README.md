@@ -2,10 +2,18 @@
 
 # loki-stack-app chart
 
-Giant Swarm offers a loki-stack Managed App which can be installed in Kubernetes clusters.
+In this chart, `promtail` and `loki` are installed for your cluster. The chart
+doesn't include grafana or any other related apps, which you need to install separately. The chart is based
+on the upstream Loki chart provided by Grafana Labs.
 
-In this chart, `promtail` and `loki` are installed for your cluster, the chart
-doesn't include grafana or any other related apps, which you need to install separately.
+By default both `loki` and `promtail` get deployed. You can use options to disable one of them.
+
+## Configuration
+
+| Option | Default | Decription |
+|--------|---------|------------|
+|loki.enabled|true|install loki|
+|promtail.enabled|true|install promtail|
 
 ## Requirements
 
