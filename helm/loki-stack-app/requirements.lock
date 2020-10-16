@@ -1,9 +1,9 @@
 dependencies:
 - name: loki
-  repository: file://../loki
+  repository: ""
   version: 0.21.0
 - name: promtail
-  repository: file://../promtail
+  repository: ""
   version: 0.16.0
-digest: sha256:92073f41b99041a215335b957fd32e32d313410f3c28232fa9650711c86fc77a
-generated: "2019-12-13T13:40:33.214634668+01:00"
+digest: sha256:c237102f314a2d9407388970fbcc25879e5a09a028225462f201159601ec5d13
+generated: "2020-10-16T15:17:39.69845371+02:00"
