@@ -1,9 +1,9 @@
 dependencies:
 - name: "loki"
   condition: loki.enabled
-  repository: "file://../loki"
+  repository: "file://../charts/loki"
   version: "^0.6.0"
 - name: "promtail"
   condition: promtail.enabled
-  repository: "file://../promtail"
+  repository: "file://../charts/promtail"
   version: "^0.6.0"
