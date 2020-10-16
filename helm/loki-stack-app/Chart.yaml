@@ -3,7 +3,7 @@ appVersion: v1.2.0
 description: 'Loki: like Prometheus, but for logs.'
 engine: gotpl
 home: https://grafana.com/loki
-icon: https://github.com/grafana/loki/raw/master/docs/logo.png
+icon: https://raw.githubusercontent.com/grafana/loki/5a8bc848dbe453ce27576d2058755a90f79d07b6/docs/sources/logo.png
 kubeVersion: ^1.10.0-0
 maintainers:
 - email: lokiproject@googlegroups.com
